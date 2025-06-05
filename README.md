@@ -10,7 +10,7 @@ Die Repository enthält:
 - `Vivifly Model` - das exportierte Model aus Vivifly (keine Konfiguration außer "Start"-Situation mit einem Display)
 
 ## Functionalities
-Für das Durchführen des Usability Tests bräuchten wir folgende Funktionalitäten:
+Für das Durchführen des Usability Tests bitten wir Sie folgende Funktionalitäten über Ihr Framework zu unserem Modell hinzuzufügen:
 
 1. Müll soll eingeworfen werden können. Darauf soll innerhalb des Mülltrenners ein Licht angehen sollen. (Restmüll -> braun, Plastik -> Gelb, Papier -> blau, Biomüll -> grün)
 
