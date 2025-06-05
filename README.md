@@ -4,7 +4,7 @@ Leider konnten wir nichts außer Displays in Vivifly konfigurieren. Auch Situati
 ## Structure 
 Die Repository enthält:
 - `muelltrenner-model.blend` - das Modell des Prototypen
-- `garbage-models` - Müll (Joghurtbecher, Alufolie, Papier)
+- `garbage-models` - Müll (Joghurtbecher, Alufolie, Papier, Bananenschale)
 - `assets` - unterschiedliche Zustände des Displays
 - `exported` - alle Modelle im `.fbx` Format
 - `Vivifly Model` - das exportierte Model aus Vivifly (keine Konfiguration außer "Start"-Situation mit einem Display)
