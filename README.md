@@ -44,7 +44,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
 
     Danach wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 3" weitergeleiter. ___Die Tür sollte zugemacht werden___
 
-3. ___Biomüll leeren.___ Technisch das gleiche, wie bei der vorgerigen Aufgabe. Nach dem Wiedereinsetzen von dem Compartment wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 4" weitergeleiter. ___Die Tür sollte zugemacht werden___
+3. ___Biomüll leeren.___ Technisch das gleiche, wie bei der vorgerigen Aufgabe. Nach dem Wiedereinsetzen von dem Compartment wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 4" weitergeleitet. ___Die Tür sollte zugemacht werden___
 
 4. ___Auswaschen___. Hier wird auf den Waschen-Button gedrückt und es wird zu der Situation "Aufgabe 4 - Waschen" weitergeleitet. Nach 8000ms wird es zu der Situation "Waschen fertig" weitergeleitet und dann nach 4000ms wieder zu der Situation "Aufgabe 4".
 
