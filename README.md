@@ -1,34 +1,56 @@
 # "Mülltrenner" Prototype 
-Leider konnten wir nichts außer Displays in Vivifly konfigurieren. Auch Situationen mit Lichtern konnten nicht konfiguriert werden, da sie nicht beim Klicken oder Anfassen getriggert werden müssen, sondern beim Einwerfen vom Müll.
 
 ## Structure 
 Die Repository enthält:
 - `muelltrenner-model.blend` - das Modell des Prototypen
-- `garbage-models` - Müll (Joghurtbecher, Alufolie, Papier, Bananenschale)
-- `assets` - unterschiedliche Zustände des Displays
+- `garbage-models` - Müll (ein zusammengesetztes Müllmodel mit Papier, Plastik und Restmüll)
+- `assets` - unterschiedliche Zustände des Displays und Buttons
 - `exported` - alle Modelle im `.fbx` Format
-- `Vivifly Model` - das exportierte Model aus Vivifly (keine Konfiguration außer "Start"-Situation mit einem Display)
+- `Vivifly Model` - das exportierte Model aus Vivifly mit Konfiguration von Situations (siehe "Situations"-Sektion)
 
-## Functionalities
-Für das Durchführen des Usability Tests bitten wir Sie folgende Funktionalitäten über Ihr Framework zu unserem Modell hinzuzufügen:
+## Situations
+- Es gibt 4 Aufgaben für den Test und entsprechend 4 Startzustände für die Aufgaben (siehe `assets/screens`). 
+- Links neben dem Prototypen ist ein Display mit der Auflistung der Aufgaben platziert. Das Display ist dafür da, dass die Proband:innen manuell zu nächsten Aufgabe weitergeleitet werden können, falls eine Aufgabe nicht erledigt werden konnte. 
 
-1. Müll soll eingeworfen werden können. Darauf soll innerhalb des Mülltrenners ein Licht angehen sollen. (Restmüll -> braun, Plastik -> Gelb, Papier -> blau, Biomüll -> grün)
+**Wichtig:** wir wollen die Proband:innen nicht in ein bestimmtes Vorgehen lenken. Das liksstehende Display und die Definition von den Start-Situations für die Aufgaben sind ledeglich dafür da, dass der Test weitergeführt werden kann auch wenn die vorherige Aufgabe nicht geklappt hat.
 
-    Beispiel:
+Das Display wurde in Vivifly für alle vorhandenen Situtations konfiguriert. **Wenn Sie neue Situations oder ähnliches erstellen, sorgen Sie bitte dafür, dass das Display in allen Situations  funktioniert.**
 
-    !["Licht Beispiel"](/screenshots/device-lights.png)
+## Aufgaben / Functionalities
+Hier ist die Auflistung der Aufgaben, die für den Usability Test relevant sind. Die Funktionalitäten, die in Vivifly nicht konfiguriert werden konnten, haben wir ___fettgeruckt und kursiv___ markiert. 
 
-2. Display soll sich nach dem Einwerfen des Mülls aktualisieren und den aktuellen Stand zeigen. Benutzen Sie `20-20-20-20.png` für den Ausgangszzustand.
+Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem linksstehenden Display auf "Aufgabe 1" drücken.
+ 
+1. ___Müll einwerfen. Sobald das Müllmodell in den Mülltrenner landet, sollte das Display den Zustand `screens/garbage.png` für 4000 ms annehmen. Danach soll die Situation "Aufgabe 2" getriggert werden und Müll soll verschwinden.___
 
-3. Auf das Drücken vom Button rechts unten soll die Tür aufgehen. Sie soll nich nach oben innerhalb des Mülltrenners falten. 
+!["Garbage"](screenshots/garbage.png)
 
-    !["Tür"](/screenshots/door.png)
+2. ___Restmüll leeren.___ Hier wird der obere Knopf zum Öffnen der Tür gedrückt. Dieser Knopf leitet die Szene in die Situation "Aufgabe 2 - Door Open". 
 
-    !["Geoffnete Tür"](/screenshots/opened-door.png)
+    !["Buttons Open"](screenshots/buttons-open.png)
+    
+    ___Die Tür soll in dieser Situation geoffnet werden.___
+    
+    ___Hier soll man die Compartments rausnehmen können. Beim Drücken auf den Button auf dem Compartment soll sich dieser nach unten öffnen.___
 
-4. Die einzehlnen Abteile sollen rausgenommen werden können und sollen sich öffnen können. 
+    ___Bitte benutzen Sie die beiden Zustände für die Buttons von Compartments `assets/buttons/open-compartment`. Diese Buttons konnten leider nicht in Vivifly konfiguriert werden, da sie innerhalb des Models liegen.___
 
-    !["Abteil offen"](/screenshots/container-open.png)
+    !["Compartments"](screenshots/compartments.png)
+    !["Compartment Open"](screenshots/compartment-open.png)
+
+    An dieser Stelle möchten wir das Herausfallen des Mülls aus den Compartments vernachlässigen, da die Implementierung der Workflows bereits ohne diese Berücksichtigung recht komplex ist.
+
+    ___Nach dem Wiedereinsetzen sollte das Compartment durch ein Snap-Verhalten an seine Ausgangsposition zurückspringen.___
+
+    Danach wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 3" weitergeleiter. ___Die Tür sollte zugemacht werden___
+
+3. ___Biomüll leeren.___ Technisch das gleiche, wie bei der vorgerigen Aufgabe. Nach dem Wiedereinsetzen von dem Compartment wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 4" weitergeleiter. ___Die Tür sollte zugemacht werden___
+
+4. ___Auswaschen___. Hier wird auf den Waschen-Button gedrückt und es wird zu der Situation "Aufgabe 4 - Waschen" weitergeleitet. Nach 8000ms wird es zu der Situation "Waschen fertig" weitergeleitet und dann nach 4000ms wieder zu der Situation "Aufgabe 4".
+
+!["Buttons Wash"](screenshots/buttons-wash.png)
+
+Für das Reset wird der linksstehende Screen benutzt. ___Wir bitten Sie dafür zu Sorgen, dass alle Elemente des Prototypen auf die Ausgangspositionen positioniert werden, wenn man auf dem Display eine Aufgabe auswählt.___
 
 ## Thank you
 Die oben genannten Funktionalitäten beschreiben den angestrebten Funktionsumfang für den Usability-Test. 

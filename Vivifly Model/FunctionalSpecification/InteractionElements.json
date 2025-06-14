@@ -1,1 +1,1 @@
-{"Elements":[]}
+{"Elements":[{"Name":"Cube","Type":"TouchArea","Plane":{"x":1,"y":0,"z":0},"Resolution":{"x":1000,"y":1000}},{"Name":"Button.006","Type":"Button"},{"Name":"Button.007","Type":"Button"}]}

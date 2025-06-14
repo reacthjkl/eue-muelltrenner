@@ -1,1 +1,1 @@
-{"Elements":[{"Type":"Screen","Name":"Plane for indicators","Plane":{"x":0,"y":1,"z":0},"Resolution":{"x":500,"y":300}}]}
+{"Elements":[{"Type":"Screen","Name":"Cube","Plane":{"x":1,"y":0,"z":0},"Resolution":{"x":1000,"y":1000}},{"Type":"Screen","Name":"Plane for indicators.001","Plane":{"x":0,"y":1,"z":-0.009999999776482582},"Resolution":{"x":500,"y":500}},{"Type":"Screen","Name":"Button.006","Plane":{"x":0,"y":0,"z":-1},"Resolution":{"x":200,"y":200}},{"Type":"Screen","Name":"Button.007","Plane":{"x":0,"y":0,"z":-1},"Resolution":{"x":200,"y":200}}]}
