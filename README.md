@@ -79,7 +79,6 @@ Für das Reset wird der linksstehende Screen benutzt. ___Wir bitten Sie dafür z
 8. Aufgabe 3 => Tür zu => Trigger für Zustand 4 => Tür zu.
 9. Alle Elemente des Mülltrenners sollen resetet werden, wenn man auf die Aufgaben klickt.
 
-
 ## Thank you
 Die oben genannten Funktionalitäten beschreiben den angestrebten Funktionsumfang für den Usability-Test. 
 
