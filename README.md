@@ -12,6 +12,8 @@ Die Repository enthält:
 - Es gibt 4 Aufgaben für den Test und entsprechend 4 Startzustände für die Aufgaben (siehe `assets/screens`). 
 - Links neben dem Prototypen ist ein Display mit der Auflistung der Aufgaben platziert. Das Display ist dafür da, dass die Proband:innen manuell zu nächsten Aufgabe weitergeleitet werden können, falls eine Aufgabe nicht erledigt werden konnte. 
 
+!["Situationen in Vivifly"](screenshots/vivifly-situations.png)
+
 **Wichtig:** wir wollen die Proband:innen nicht in ein bestimmtes Vorgehen lenken. Das linksstehende Display und die Definition von den Start-Situations für die Aufgaben sind lediglich dafür da, dass der Test weitergeführt werden kann auch wenn die vorherige Aufgabe nicht geklappt hat.
 
 Das Display wurde in Vivifly für alle vorhandenen Situtations konfiguriert. **Wenn Sie neue Situations oder ähnliches erstellen, sorgen Sie bitte dafür, dass das Display in allen Situations  funktioniert.**
@@ -77,8 +79,6 @@ Für das Reset wird der linksstehende Screen benutzt. ___Wir bitten Sie dafür z
 8. Aufgabe 3 => Tür zu => Trigger für Zustand 4 => Tür zu.
 9. Alle Elemente des Mülltrenners sollen resetet werden, wenn man auf die Aufgaben klickt.
 
-## Situationen in Vivifly
-!["Situationen in Vivifly"](screenshots/vivifly-situations.png)
 
 ## Thank you
 Die oben genannten Funktionalitäten beschreiben den angestrebten Funktionsumfang für den Usability-Test. 
