@@ -75,8 +75,8 @@ Für das Reset wird der linksstehende Screen benutzt. ___Wir bitten Sie dafür z
 4. Compartments soll man rausnehmen können und wieder einsetzen könenn (Snapping auf die Ursprungsposition).
 5. Buttons auf den Compartments sollen die Zustände annehmen `assets/buttons/open-compartment`.
 6. Compartments soll man durch das Klicken auf die Buttons öffnen können.
-7. Aufgabe 2 => Tür zu => Trigger für Zustand 3 => Tür zu.
-8. Aufgabe 3 => Tür zu => Trigger für Zustand 4 => Tür zu.
+7. Aufgabe 2 => Tür zu (Durch das erneute Klicken auf den Tür-Button) => Trigger für Zustand 3 
+8. Aufgabe 3 => Tür zu (Durch das erneute Klicken auf den Tür-Button) => Trigger für Zustand 4
 9. Alle Elemente des Mülltrenners sollen resetet werden, wenn man auf die Aufgaben klickt.
 
 ## Thank you
