@@ -3,7 +3,7 @@
 ## Structure 
 Die Repository enthält:
 - `muelltrenner-model.blend` - das Modell des Prototypen
-- `garbage-models` - Müll (ein zusammengesetztes Müllmodel mit Papier, Plastik und Restmüll)
+- `garbage-models` - Müll (ein zusammengesetztes Müllmodel mit Papier, Plastik und Restmüll) und Mülltonnen für die Aufgaben 2 und 3.
 - `assets` - unterschiedliche Zustände des Displays und Buttons
 - `exported` - alle Modelle im `.fbx` Format
 - `Vivifly Model` - das exportierte Model aus Vivifly mit Konfiguration von Situations (siehe "Situations"-Sektion)
@@ -21,9 +21,17 @@ Hier ist die Auflistung der Aufgaben, die für den Usability Test relevant sind.
 
 Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem linksstehenden Display auf "Aufgabe 1" drücken.
  
-1. ___Müll einwerfen. Sobald das Müllmodell in den Mülltrenner landet, sollte das Display den Zustand `screens/garbage.png` für 4000 ms annehmen. Danach soll die Situation "Aufgabe 2" getriggert werden und Müll soll verschwinden.___
+1. ___Müll einwerfen. Sobald das Müllmodell in den Mülltrenner landet, soll das Display folgende Zustände sequenziell je 1000 ms annehmen:___
+    - `screens/paper.png`
+    - `screens/bio.png`
+    - `screens/plastic.png`
+    - `screens/non-recyclable.png`
+
+    ___Danach soll die Situation "Aufgabe 2" getriggert werden und Müll soll verschwinden.___
 
     !["Garbage"](screenshots/garbage.png)
+
+    Das Display zeigt jetzt, dass Rest-, Bio-, und Papier- Abteile voll sind (Zustand 2).
 
 2. ___Restmüll leeren.___ Hier wird der obere Knopf zum Öffnen der Tür gedrückt. Dieser Knopf leitet die Szene in die Situation "Aufgabe 2 - Door Open". 
 
@@ -38,13 +46,19 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
     !["Compartments"](screenshots/compartments-buttons.png)
     !["Compartment Open"](screenshots/compartment-open.png)
 
+    ___Bitte platzieren Sie die Mültonnen `exported/garbage-containers.fbx` für die Aufgabe 2 und 3 in die Szene.___
+
     An dieser Stelle möchten wir das Herausfallen des Mülls aus den Compartments vernachlässigen, da die Implementierung der Workflows bereits ohne diese Berücksichtigung recht komplex ist.
 
     ___Nach dem Wiedereinsetzen sollte das Compartment durch ein Snap-Verhalten an seine Ausgangsposition zurückspringen.___
 
     Danach wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 3" weitergeleitet. ___Die Tür sollte zugemacht werden___
 
+    Jetzt zeigt das Display, dass Papier- und Bio- Abteile voll sind. Restmüll-Abteil ist jetzt leer (Zustand 3).
+
 3. ___Biomüll leeren.___ Technisch das gleiche, wie bei der vorgerigen Aufgabe. Nach dem Wiedereinsetzen von dem Compartment wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 4" weitergeleitet. ___Die Tür sollte zugemacht werden___
+
+    Jetzt zeigt das Display, dass ledeglich Papier-Abteil voll ist. Rest- und Bio- Abteile sind jetzt leer (Zustand 4).
 
 4. ___Auswaschen___. Hier wird auf den Waschen-Button gedrückt und es wird zu der Situation "Aufgabe 4 - Waschen" weitergeleitet. Nach 8000ms wird es zu der Situation "Waschen fertig" weitergeleitet und dann nach 4000ms wieder zu der Situation "Aufgabe 4".
 
