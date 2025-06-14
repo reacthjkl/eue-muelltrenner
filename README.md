@@ -35,7 +35,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
 
     ___Bitte benutzen Sie die beiden Zustände für die Buttons von Compartments `assets/buttons/open-compartment`. Diese Buttons konnten leider nicht in Vivifly konfiguriert werden, da sie innerhalb des Models liegen.___
 
-    !["Compartments"](screenshots/compartments.png)
+    !["Compartments"](screenshots/compartments-buttons.png)
     !["Compartment Open"](screenshots/compartment-open.png)
 
     An dieser Stelle möchten wir das Herausfallen des Mülls aus den Compartments vernachlässigen, da die Implementierung der Workflows bereits ohne diese Berücksichtigung recht komplex ist.
