@@ -39,7 +39,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
 
     !["Buttons Open"](screenshots/buttons-open.png)
     
-    ___Die Tür soll in dieser Situation geöffnet werden.___
+    ___Die Tür soll in dieser Situation geöffnet werden. Sie soll sich nach oben innerhalb des Mülltrenners falten.___
     
     ___Hier soll man die Compartments rausnehmen können. Beim Drücken auf den Button auf dem Compartment soll sich dieser nach unten öffnen.___
 
