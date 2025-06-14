@@ -12,7 +12,7 @@ Die Repository enthält:
 - Es gibt 4 Aufgaben für den Test und entsprechend 4 Startzustände für die Aufgaben (siehe `assets/screens`). 
 - Links neben dem Prototypen ist ein Display mit der Auflistung der Aufgaben platziert. Das Display ist dafür da, dass die Proband:innen manuell zu nächsten Aufgabe weitergeleitet werden können, falls eine Aufgabe nicht erledigt werden konnte. 
 
-**Wichtig:** wir wollen die Proband:innen nicht in ein bestimmtes Vorgehen lenken. Das liksstehende Display und die Definition von den Start-Situations für die Aufgaben sind ledeglich dafür da, dass der Test weitergeführt werden kann auch wenn die vorherige Aufgabe nicht geklappt hat.
+**Wichtig:** wir wollen die Proband:innen nicht in ein bestimmtes Vorgehen lenken. Das linksstehende Display und die Definition von den Start-Situations für die Aufgaben sind lediglich dafür da, dass der Test weitergeführt werden kann auch wenn die vorherige Aufgabe nicht geklappt hat.
 
 Das Display wurde in Vivifly für alle vorhandenen Situtations konfiguriert. **Wenn Sie neue Situations oder ähnliches erstellen, sorgen Sie bitte dafür, dass das Display in allen Situations  funktioniert.**
 
@@ -29,7 +29,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
 
     !["Buttons Open"](screenshots/buttons-open.png)
     
-    ___Die Tür soll in dieser Situation geoffnet werden.___
+    ___Die Tür soll in dieser Situation geöffnet werden.___
     
     ___Hier soll man die Compartments rausnehmen können. Beim Drücken auf den Button auf dem Compartment soll sich dieser nach unten öffnen.___
 
@@ -42,7 +42,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
 
     ___Nach dem Wiedereinsetzen sollte das Compartment durch ein Snap-Verhalten an seine Ausgangsposition zurückspringen.___
 
-    Danach wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 3" weitergeleiter. ___Die Tür sollte zugemacht werden___
+    Danach wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 3" weitergeleitet. ___Die Tür sollte zugemacht werden___
 
 3. ___Biomüll leeren.___ Technisch das gleiche, wie bei der vorgerigen Aufgabe. Nach dem Wiedereinsetzen von dem Compartment wird auf den Tür-Button gedrückt und es wird zu der Situation "Aufgabe 4" weitergeleitet. ___Die Tür sollte zugemacht werden___
 
