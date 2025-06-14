@@ -23,7 +23,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
  
 1. ___Müll einwerfen. Sobald das Müllmodell in den Mülltrenner landet, sollte das Display den Zustand `screens/garbage.png` für 4000 ms annehmen. Danach soll die Situation "Aufgabe 2" getriggert werden und Müll soll verschwinden.___
 
-!["Garbage"](screenshots/garbage.png)
+    !["Garbage"](screenshots/garbage.png)
 
 2. ___Restmüll leeren.___ Hier wird der obere Knopf zum Öffnen der Tür gedrückt. Dieser Knopf leitet die Szene in die Situation "Aufgabe 2 - Door Open". 
 
@@ -48,7 +48,7 @@ Damit man zu der Situation "Aufgabe 1" weitergeleitet wird, muss man auf dem lin
 
 4. ___Auswaschen___. Hier wird auf den Waschen-Button gedrückt und es wird zu der Situation "Aufgabe 4 - Waschen" weitergeleitet. Nach 8000ms wird es zu der Situation "Waschen fertig" weitergeleitet und dann nach 4000ms wieder zu der Situation "Aufgabe 4".
 
-!["Buttons Wash"](screenshots/buttons-wash.png)
+    !["Buttons Wash"](screenshots/buttons-wash.png)
 
 Für das Reset wird der linksstehende Screen benutzt. ___Wir bitten Sie dafür zu Sorgen, dass alle Elemente des Prototypen auf die Ausgangspositionen positioniert werden, wenn man auf dem Display eine Aufgabe auswählt.___
 
