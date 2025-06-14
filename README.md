@@ -72,7 +72,7 @@ Für das Reset wird der linksstehende Screen benutzt. ___Wir bitten Sie dafür z
 1. Das Müllmodell sowie die Mülltonnen sollen zusätzlich in der Szene platziert werden.
 2. Triggger beim Mülleinwerfen => Display Feedback => Zustand 2
 3. Das grüne Button mit dem Tür Symbol soll das Öffnen der Tür triggern.
-4. Compartments soll man rausnehmen können und wieder einsetzen könenn (Snapping auf die Urspringsposition).
+4. Compartments soll man rausnehmen können und wieder einsetzen könenn (Snapping auf die Ursprungsposition).
 5. Buttons auf den Compartments sollen die Zustände annehmen `assets/buttons/open-compartment`.
 6. Compartments soll man durch das Klicken auf die Buttons öffnen können.
 7. Aufgabe 2 => Tür zu => Trigger für Zustand 3 => Tür zu.
